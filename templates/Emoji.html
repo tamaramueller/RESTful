@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>How are you feeling today?</title>
+</head>
+<script>
+    function returnEmoji() {
+        document.getElementById("myText");
+    }
+</script>
+<body>
+    <h2>
+        Tell me something!
+    </h2>
+    <form action='http://localhost:5000/Emoji/hello' method='post'>
+            <label>
+            </label>
+            <input type="text" 
+                    name="text"
+                    id="text"
+                    value="Tell me something" />
+            <input type="submit" value="Submit" />
+    </form>
+</body>
+</html>

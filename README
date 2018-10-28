@@ -1,0 +1,35 @@
+---------------------------
+README
+---------------------------
+
+required Python packages:
+	flask
+	os
+	requests
+	urllib
+	json
+	sys
+	sklearn
+-> install via pip for example
+
+------------------------------------------------
+How to execute the sentence to emoji analysis:
+------------------------------------------------
+1. Save zip file
+2. unpack it
+3. go to folder with unpacked zip file
+4. start a command line
+5. type in:
+
+	python server.py
+
+   this starts the server and makes it possible to run the RESTful API on your local host
+6. open a browser and type in:
+
+	http://localhost:5000/Emoji
+
+   This should open a website where you can input some thoughts
+   From here it should be as described in the task:
+	You type something in and press 'submit'. It will lead you to a new page where an emoji is 		displayed that depends on the sentiment of your input. If you type in "My favourite emoji 		is ..." (with your favourite emoji where the dots are) it will save your favourite emoji. You 		can ask "What is my favourite emoji?" and it will return your favourite emoji (if you have 		already told the bot your favourite emoji)
+
+note: The emojies are so far only ascii emojies, but this could be changed easily by including images in the html site.
